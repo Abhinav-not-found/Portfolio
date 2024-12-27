@@ -1,8 +1,12 @@
 import Projects from "./components/custom/Projects.jsx";
 import About from "./components/custom/About.jsx";
 import Contact from "./components/custom/Contact.jsx";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() =>{
+      alert('This website is under construction.')
+  }, [])
   return (
     <div className="w-[60%] h-screen bg-red-10 m-auto py-10">
         <div className="flex justify-between">
