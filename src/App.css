@@ -1,0 +1,17 @@
+.press-start-2p-regular {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.chat-notch::after{
+  content:'';
+  position: absolute;
+  bottom: -29px;
+  right: 2em;
+  width: 30px;
+  height: 30px;
+  background-color: #CB0001;
+  border-bottom-right-radius: 100%;
+  border: 1px solid white;
+  border-top: transparent;
+}

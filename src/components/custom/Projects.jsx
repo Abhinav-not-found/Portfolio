@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { FreeMode } from "swiper/modules";
+import NPMCard from './NPMCard.jsx'
 
 const Projects = () => {
   return (
@@ -22,7 +23,8 @@ const Projects = () => {
             }}
           >
             <SwiperSlide> */}
-              <Card/>
+              {/* <Card heading={'NPM'} subHead={'package'} bgColor={'#CB0001'} /> */}
+              <NPMCard/>
             {/* </SwiperSlide>
           </Swiper> */}
         </div>

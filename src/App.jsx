@@ -2,6 +2,7 @@
 import { Route, Routes } from "react-router-dom";
 import ProjectDetail from './components/custom/ProjectDetail.jsx'
 import Home from "./Home.jsx";
+import NPM from "./components/custom/NPM.jsx";
 function App() {
 
   // Add a text like looking for a job (to give more info)
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/projectDetail" element={<ProjectDetail/>} />
+        <Route path="/projectDetail/npm" element={<NPM/>} />
       </Routes>
     </>
   )
